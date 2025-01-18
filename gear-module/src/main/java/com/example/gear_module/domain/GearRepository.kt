@@ -28,6 +28,6 @@ class GearRepository(private val carPropertyManager: CarPropertyManager) {
     }
 
     companion object {
-        const val GEAR_SELECTION_ID = 289408000 // Örnek ID
+        const val GEAR_SELECTION_ID = 289408000
     }
 }

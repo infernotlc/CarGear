@@ -1,6 +1,3 @@
-import org.gradle.internal.impldep.bsh.commands.dir
-import org.gradle.internal.impldep.org.junit.experimental.categories.Categories.CategoryFilter.include
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -42,10 +39,10 @@ android {
 dependencies {
     implementation (project(":gear-module"))
     implementation (project(":ui-module"))
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0")
-    implementation ("androidx.compose.ui:ui:1.5.0")
-    implementation ("androidx.compose.material:material:1.5.0")
-    implementation ("androidx.navigation:navigation-compose:2.7.3")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation ("androidx.compose.ui:ui:1.7.6")
+    implementation ("androidx.compose.material:material:1.7.6")
+    implementation ("androidx.navigation:navigation-compose:2.8.5")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
