@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.gear_module"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.gear_module"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
